@@ -9,7 +9,7 @@ const MIN_COLOR_VALUE = 0;
 
 const reducer = (state, action) => {
     // state === { red: number, green: number, blue: number }
-    // action === { type: 'change_red' || 'change_green' || 'change_blue', amount: 15 || -15}
+    // action === { type: 'change_red' || 'change_green' || 'change_blue', payload: 15 || -15}
 
     let value = 0;
 
